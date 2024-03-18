@@ -33,5 +33,5 @@ O projeto está estruturado da seguinte forma:
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues relatando problemas encontrados ou enviar pull requests com melhorias no código ou nos testes.
 
 ## Contato
-Em caso de dúvidas ou sugestões, entre em contato através do email [juares.franciscodacruz@gmail.com0](mailto:seu-email@example.com).
+Em caso de dúvidas ou sugestões, entre em contato através do email [juares.franciscodacruz@gmail.com](mailto:seu-email@example.com).
 
