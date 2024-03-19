@@ -18,7 +18,6 @@ public class DeleteUserTest {
     @Test
     @DisplayName("Excluir usuário com sucesso")
     public void testDeleteUserSuccess() {
-        // Enviar solicitação DELETE para excluir usuário e verificar a resposta
         Response response = RestAssured.given()
                 .when()
                 .delete("/users/4")
@@ -31,7 +30,6 @@ public class DeleteUserTest {
             Assertions.fail("Falha ao excluir o usuário. Status code: " + statusCode);
         }
 
-        // Exibir mensagem de log
         System.out.println("Usuário excluído com sucesso!");
     }
 }

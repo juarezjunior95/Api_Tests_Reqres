@@ -38,10 +38,8 @@ public class CreateUserTest {
             Assertions.fail("Status code diferente de 201. Status code atual: " + statusCode);
         }
 
-        // Exibir mensagem de log
         System.out.println("Usuário cadastrado com sucesso!");
 
-        // Exibir resposta no console
         System.out.println(response.asString());
     }
 }
