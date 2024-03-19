@@ -29,3 +29,12 @@ jobs:
       with:
         name: test-results
         path: target/surefire-reports
+
+    - name: Upload Test Results
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: results-${{ matrix.browser}}
+        path: ./results
+        if-no-files-found: ignore
+        retention-days: 2
