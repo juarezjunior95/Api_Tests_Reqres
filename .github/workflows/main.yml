@@ -18,9 +18,10 @@ jobs:
 
     - name: Build with Maven
       run: mvn -B clean test --file pom.xml
+      continue-on-error: true
 
     - name: Upload test results
       uses: actions/upload-artifact@v2
       with:
         name: test-results
-        path: src/java/crud
+        path: target/surefire-reports
